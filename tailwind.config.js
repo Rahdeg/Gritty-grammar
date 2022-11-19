@@ -54,11 +54,11 @@ module.exports = {
         textColor:"#393939",
         primary: "#2F1C40",
         cardOverlay: "#2FB087",
-        lighttextGray: "#9ca0ab",
+        lighttextGray: "#B0B0B0",
         card: "#F9F3FF",
         cartBg: "#2F1C40",
         cartItem: "#2e3033",
-        cartTotal: "#343739",
+        cartTotal: "rgba(232, 221, 242, 0.2)",
         ourmission:"#279371"
       },
     },
