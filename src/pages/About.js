@@ -9,7 +9,7 @@ import IMG2 from '../images/Sauce Labs - jpeg (1).png'
 const About = () => {
   return (
     <div className=' flex flex-col items-center justify-center'>
-    <div className='flex flex-col items-center justify-center bg-firstcolor md:p-5 lg:w-full lg:p-20 lg:h-[560px]'>
+    <div className='flex flex-col items-center justify-center bg-firstcolor md:p-5 lg:w-full lg:p-96 lg:h-[560px]'>
     <div className='flex flex-col items-center justify-center lg:p-24'>
     <p className=' font-semibold text-textColor mt-5 mb-5 lg:text-4xl'>ABOUT US</p>
     <p className=' text-cartBg text-center mb-8 p-3 md:px-16 lg:text-base lg:p-10 lg:w-622 lg:h-66'>AI-powered grammar checker backed by an automatic speech recognition system trained with over 650,000 hours of multilingual speech data collected from all over the internet</p>
@@ -872,7 +872,7 @@ const About = () => {
     </div>
 
     
-    <div className='flex flex-col items-center justify-center bg-NumBg p-3 mt-5 md:flex-row md:justify-around md:gap-10  md:px-5'>
+    <div className='grid grid-cols-1 gap-4 justify-between  m-5 p-5  bg-NumBg  md:grid-cols-2'>
     <div className='flex flex-col items-center justify-center mt-4 md:p-8'>
     <p className=' text-lineColor'>About Our Technology</p>
     <p className=' font-bold  text-cartBg text-lg mt-2 mb-3'> What we are building</p>
@@ -882,8 +882,8 @@ const About = () => {
     <BsArrowRight/>
     </div>
     </div>
-    <div className=' mt-6 '>
-   <img src={IMG} alt='' className=' md:h-60'/>
+    <div className=' mt-6 w-[517] h-[568] '>
+   <img src={IMG} alt='' className='w-full'/>
     </div>
     </div>
     <div className=' flex flex-col items-center justify-center m-8 mt-10'>
