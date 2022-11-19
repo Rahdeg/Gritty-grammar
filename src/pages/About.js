@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsArrowRight} from 'react-icons/bs'
-import IMG from '../images/Frame 1000002157 (1).png'
+import IMG from '../images/frame1.jpg'
 import {Values,Teams} from '../data/data'
 import IMG3 from '../images/Mavenir - jpeg.png'
 import IMG2 from '../images/Sauce Labs - jpeg (1).png'
