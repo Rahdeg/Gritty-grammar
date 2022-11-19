@@ -400,15 +400,12 @@ const About = () => {
     <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto relative py-5">
     <div class="border-l-2 mt-10 border-cardOverlay"> 
         {
-            Values && Values.map((value,idx)=>(
-               
-                
-                
+             Values && Values.map((value,idx)=>(
                   <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 Y text-white rounded mb-10 flex-col md:flex-row">
                     <div class="w-5 h-5 bg-cardOverlay absolute -left-10 transform -translate-x-2/4 rounded-full z-10 -mt-2 md:mt-0"></div>
                     <div class="w-10 h-1 bg-cardOverlay absolute -left-10 z-0"></div>
         <div class="flex-auto " key={idx}>
-          <h1 class="font-bold text-textColor">{value.message}</h1>
+          <h1 class=" font-normal text-textColor">{value.message.length >120 ? `${value.message.slice(0,120)}.... Read more`:value.message}</h1>
         </div>
         </div>
             ))
@@ -416,7 +413,7 @@ const About = () => {
         </div>   
 </div>   
 </div>
-<div className=' mt-5 '>
+<div className='mt-0'>
 <svg width="250" height="250" viewBox="0 0 393 349" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M189.627 48.8516H22.1777V158.274H189.627V48.8516Z" fill="#DBDBDB"/>
 <path d="M22.1777 158.273V183.227L49.1259 158.273H22.1777Z" fill="#DBDBDB"/>
@@ -642,7 +639,8 @@ const About = () => {
         Teams && Teams.map((team,idx)=>(
     <div className=' flex flex-col items-center justify-center mt-4 gap-1' key={idx}>
     <img src={team.imgsrc} alt='' className=' mb-2'/>
-    <p className='font-bold text-textColor text-center text-base'>{team.name}</p>
+    <p className='font-bold text-textColor text-center text-base'>{team.name}
+    </p>
     <p className=' text-textColor text-center'>{team.role}</p>
     </div>
         ))
