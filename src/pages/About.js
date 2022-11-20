@@ -9,8 +9,34 @@ import IMG2 from '../images/Sauce Labs - jpeg (1).png'
 const About = () => {
   return (
     <div className=' flex flex-col items-center justify-center'>
-    <div className='flex flex-col items-center justify-center bg-firstcolor md:p-5 lg:w-full lg:p-96 lg:h-[560px]'>
-    <div className='flex flex-col items-center justify-center lg:p-24'>
+    <div className='flex flex-col items-center justify-center bg-firstcolor md:p-5 lg:w-full lg:p-96 lg:h-[560px] relative'>
+    <svg width="192" height="70" viewBox="0 0 192 70" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute right-0 top-0'>
+<path opacity="0.1" d="M191.569 25.3664C191.569 73.6213 135.628 69.8354 87.3732 69.8354C39.1183 69.8354 0 30.7171 0 -17.5378C0 -65.7927 69.6337 -95 117.889 -95C166.144 -95 191.569 -22.8885 191.569 25.3664Z" fill="url(#paint0_radial_822_7406)"/>
+<defs>
+<radialGradient id="paint0_radial_822_7406" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(87.3732 -17.5378) rotate(90) scale(87.3732 87.3732)">
+<stop offset="0.022939" stop-color="#185A71"/>
+<stop offset="1" stop-color="#185A71" stop-opacity="0.36"/>
+</radialGradient>
+</defs>
+</svg>
+<svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute bottom-0 left-0'>
+<path opacity="0.1" d="M75.569 60.0478C75.569 84.1209 47.6615 82.2323 23.5883 82.2323C-0.484846 82.2323 -20 62.7171 -20 38.644C-20 14.5708 14.7385 0 38.8117 0C62.8849 0 75.569 35.9746 75.569 60.0478Z" fill="url(#paint0_radial_822_7405)"/>
+<defs>
+<radialGradient id="paint0_radial_822_7405" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5883 38.644) rotate(90) scale(43.5883 43.5883)">
+<stop offset="0.022939" stop-color="#185A71"/>
+<stop offset="1" stop-color="#185A71" stop-opacity="0.36"/>
+</radialGradient>
+</defs>
+</svg>
+<svg width="130" height="54" viewBox="0 0 130 54" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute bottom-0 right-0'>
+<g opacity="0.04">
+<circle cx="65" cy="65" r="63.2757" stroke="#185A71" stroke-width="2.55144"/>
+<circle cx="65.3444" cy="64.6554" r="41.8323" stroke="#185A71" stroke-width="1.68679"/>
+<circle cx="65" cy="65" r="26.7164" stroke="#185A71" stroke-width="1.07727"/>
+</g>
+</svg>
+
+    <div className=' flex flex-col items-center justify-center lg:p-24'>
     <p className=' font-semibold text-textColor mt-5 mb-5 lg:text-4xl'>ABOUT US</p>
     <p className=' text-cartBg text-center mb-8 p-3 md:px-16 lg:text-base lg:p-10 lg:w-622 lg:h-66'>AI-powered grammar checker backed by an automatic speech recognition system trained with over 650,000 hours of multilingual speech data collected from all over the internet</p>
     </div>
@@ -882,8 +908,14 @@ const About = () => {
     <BsArrowRight/>
     </div>
     </div>
-    <div className=' mt-6 w-[517] h-[568] '>
-   <img src={IMG} alt='' className='w-full'/>
+    <div className=' mt-6 w-[517] h-[568] relative bg-NumBg '>
+    <svg width="83" height="84" viewBox="0 0 83 84" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute bottom-0 left-24 md:left-40 '>
+   <path d="M73.6171 42.2343C73.6171 60.0719 59.1569 74.5322 41.3193 74.5322C23.4817 74.5322 9.02149 60.0719 9.02149 42.2343C9.02148 24.3968 23.4817 9.93652 41.3193 9.93652C59.1569 9.93652 73.6171 24.3968 73.6171 42.2343ZM12.8283 42.2343C12.8283 57.9695 25.5842 70.7254 41.3193 70.7254C57.0545 70.7254 69.8103 57.9695 69.8103 42.2343C69.8103 26.4992 57.0545 13.7433 41.3193 13.7433C25.5842 13.7433 12.8283 26.4992 12.8283 42.2343Z" fill="#E8DDF2"/>
+   <path d="M64.5956 42.0537C64.5956 54.809 54.2553 65.1493 41.5 65.1493C28.7446 65.1493 18.4043 54.809 18.4043 42.0537C18.4043 29.2983 28.7446 18.958 41.5 18.958C54.2553 18.958 64.5956 29.2983 64.5956 42.0537ZM21.1265 42.0537C21.1265 53.3056 30.248 62.4271 41.5 62.4271C52.7519 62.4271 61.8734 53.3056 61.8734 42.0537C61.8734 30.8017 52.7519 21.6802 41.5 21.6802C30.248 21.6802 21.1265 30.8017 21.1265 42.0537Z" fill="#E8DDF2"/>
+   <path d="M83 42.0537C83 64.9735 64.4198 83.5537 41.5 83.5537C18.5802 83.5537 2.14089e-06 64.9735 1.37918e-06 42.0537C6.17482e-07 19.1339 18.5802 0.55371 41.5 0.55371C64.4198 0.553709 83 19.1339 83 42.0537ZM4.89144 42.0537C4.89144 62.2721 21.2817 78.6623 41.5 78.6623C61.7184 78.6623 78.1086 62.2721 78.1086 42.0537C78.1086 21.8354 61.7183 5.44515 41.5 5.44515C21.2816 5.44515 4.89144 21.8354 4.89144 42.0537Z" fill="#E8DDF2"/>
+   </svg>
+   <img src={IMG} alt='' className=' w-full bg-NumBg '/>
+   
     </div>
     </div>
     <div className=' flex flex-col items-center justify-center m-8 mt-10'>
@@ -894,7 +926,7 @@ const About = () => {
     <div className='grid grid-cols-1 gap-4 justify-between  m-5 p-5 md:m-4 md:p-4 md:grid-cols-3  lg:grid-cols-5'>
     {
         Teams && Teams.map((team,idx)=>(
-    <div className=' flex flex-col items-center justify-center mt-4 gap-1  ' key={idx}>
+    <div className=' flex flex-col items-center justify-start mt-4 gap-1  ' key={idx}>
     <img src={team.imgsrc} alt='' className=' mb-2 h-[140px] w-[140px]'/>
     <p className='font-bold text-textColor text-center text-base'>{team.name}
     </p>
