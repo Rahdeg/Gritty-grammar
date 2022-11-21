@@ -1,8 +1,8 @@
-import IMG1 from '../images/Frame 1000002030 (1).png'
-import IMG2 from '../images/Frame 1000002030 (2).png'
-import IMG3 from '../images/Frame 1000002031 (1).png'
-import IMG4 from '../images/Frame 1000002049 (1).png'
-import IMG5 from '../images/Frame 1000002029.png'
+import IMG1 from '../images/image 19.png'
+import IMG2 from '../images/image 18.png'
+import IMG3 from '../images/image 17.png'
+import IMG4 from '../images/image 16.png'
+import IMG5 from '../images/image 15.png'
 
 export const Values = [
     {
@@ -31,32 +31,32 @@ export const Values = [
     export const Teams = [
         {
            id:1,
-           name:'Donald John',
+           name:'Riri',
            imgsrc:IMG1,
-           role: 'General Managing Director'
+           role: 'Team Lead'
         },
         {
            id:2,
-           name:'Jennifer',
+           name:'Faizah',
            imgsrc:IMG2,
-           role: 'Head of Communication',
+           role: 'Design Tract Lead',
          },
          {
             id:3,
-            name:'Victoria',
+            name:'Phebe',
             imgsrc:IMG3,
-            role: 'Head of Graphics'
+            role: 'PM,Marketing'
          },
          {
             id:4,
-            name:'Kenneth',
+            name:'Jennifer',
             imgsrc:IMG4,
-            role: 'Head of Engineering',
+            role: 'PM,Lead Product Design',
           },
           {
             id:5,
-            name:'Susan',
+            name:'Adura',
             imgsrc:IMG5,
-            role: 'Head of Design',
+            role: 'PM, Mobile Development',
           }
         ]
